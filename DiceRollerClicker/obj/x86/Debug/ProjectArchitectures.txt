@@ -1,1 +1,1 @@
-C:\Users\Misha Finley\source\repos\DiceRollerClicker\DiceRollerClicker.csproj;x86
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\DiceRollerClicker.csproj;x86
