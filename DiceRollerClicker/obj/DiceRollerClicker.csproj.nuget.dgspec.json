@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Misha Finley\\source\\repos\\DiceRollerClicker\\DiceRollerClicker.csproj": {}
+    "C:\\Users\\londo\\OneDrive\\Documents\\GitHub\\DiceRollerClicker\\DiceRollerClicker\\DiceRollerClicker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Misha Finley\\source\\repos\\DiceRollerClicker\\DiceRollerClicker.csproj": {
+    "C:\\Users\\londo\\OneDrive\\Documents\\GitHub\\DiceRollerClicker\\DiceRollerClicker\\DiceRollerClicker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Misha Finley\\source\\repos\\DiceRollerClicker\\DiceRollerClicker.csproj",
+        "projectUniqueName": "C:\\Users\\londo\\OneDrive\\Documents\\GitHub\\DiceRollerClicker\\DiceRollerClicker\\DiceRollerClicker.csproj",
         "projectName": "DiceRollerClicker",
-        "projectPath": "C:\\Users\\Misha Finley\\source\\repos\\DiceRollerClicker\\DiceRollerClicker.csproj",
-        "packagesPath": "C:\\Users\\Misha Finley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Misha Finley\\source\\repos\\DiceRollerClicker\\obj\\",
+        "projectPath": "C:\\Users\\londo\\OneDrive\\Documents\\GitHub\\DiceRollerClicker\\DiceRollerClicker\\DiceRollerClicker.csproj",
+        "packagesPath": "C:\\Users\\londo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\londo\\OneDrive\\Documents\\GitHub\\DiceRollerClicker\\DiceRollerClicker\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Misha Finley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\londo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
