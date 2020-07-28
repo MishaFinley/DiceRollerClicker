@@ -43,6 +43,7 @@ C:\Users\Misha Finley\source\repos\DiceRollerClicker\obj\x86\Debug\MultipleQuali
 C:\Users\Misha Finley\source\repos\DiceRollerClicker\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Misha Finley\source\repos\DiceRollerClicker\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885562160000000.json
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\App.xbf
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\GamePage.xbf
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\MainPage.xbf
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\DiceRollerClicker.xr.xml
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\DiceRollerClicker.exe
@@ -54,14 +55,19 @@ C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\DiceRollerClicker.build.appxrecipe
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\System.Runtime.dll
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\DiceRollerClicker.csprojAssemblyReference.cache
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\App.g.i.cs
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\App.g.cs
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.g.i.cs
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.g.cs
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\MainPage.g.i.cs
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\MainPage.g.cs
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\App.xaml
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.xaml
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\MainPage.xaml
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\App.xbf
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.xbf
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\MainPage.xbf
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\DiceRollerClicker.csproj.CoreCompileInputs.cache
@@ -86,9 +92,3 @@ C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885562160000000.json
-C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\DiceRollerClicker.csprojAssemblyReference.cache
-C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\GamePage.xbf
-C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.g.i.cs
-C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.g.cs
-C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.xaml
-C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.xbf

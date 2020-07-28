@@ -9,7 +9,8 @@ namespace DiceRollerClicker
     /// </summary>
     public sealed partial class GamePage : Page
     {
-        GameManager gm = new GameManager();
+        private GameManager gm = new GameManager();
+
         public GamePage()
         {
             this.InitializeComponent();

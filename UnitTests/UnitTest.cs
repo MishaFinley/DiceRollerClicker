@@ -39,7 +39,7 @@ namespace UnitTests
         {
             int CurrentStoreAmount = gm.DiceBag.Dice[6];
             long CurrentScoreAmount = gm.Score;
-            gm.BuyD4();
+            gm.BuyD6();
             Assert.AreEqual(CurrentStoreAmount + 1, gm.DiceBag.Dice[6]);
             Assert.AreEqual(CurrentScoreAmount - (DiceRollerClicker.GameManager.DefaultDieCost * 7), gm.Score);
         }
@@ -48,7 +48,7 @@ namespace UnitTests
         {
             int CurrentStoreAmount = gm.DiceBag.Dice[8];
             long CurrentScoreAmount = gm.Score;
-            gm.BuyD4();
+            gm.BuyD8();
             Assert.AreEqual(CurrentStoreAmount + 1, gm.DiceBag.Dice[8]);
             Assert.AreEqual(CurrentScoreAmount - (DiceRollerClicker.GameManager.DefaultDieCost * 9), gm.Score);
         }
@@ -57,7 +57,7 @@ namespace UnitTests
         {
             int CurrentStoreAmount = gm.DiceBag.Dice[10];
             long CurrentScoreAmount = gm.Score;
-            gm.BuyD4();
+            gm.BuyD10();
             Assert.AreEqual(CurrentStoreAmount + 1, gm.DiceBag.Dice[10]);
             Assert.AreEqual(CurrentScoreAmount - (DiceRollerClicker.GameManager.DefaultDieCost * 11), gm.Score);
         }
@@ -66,7 +66,7 @@ namespace UnitTests
         {
             int CurrentStoreAmount = gm.DiceBag.Dice[12];
             long CurrentScoreAmount = gm.Score;
-            gm.BuyD4();
+            gm.BuyD12();
             Assert.AreEqual(CurrentStoreAmount + 1, gm.DiceBag.Dice[12]);
             Assert.AreEqual(CurrentScoreAmount - (DiceRollerClicker.GameManager.DefaultDieCost * 13), gm.Score);
         }
@@ -75,7 +75,7 @@ namespace UnitTests
         {
             int CurrentStoreAmount = gm.DiceBag.Dice[20];
             long CurrentScoreAmount = gm.Score;
-            gm.BuyD4();
+            gm.BuyD20();
             Assert.AreEqual(CurrentStoreAmount + 1, gm.DiceBag.Dice[20]);
             Assert.AreEqual(CurrentScoreAmount - (DiceRollerClicker.GameManager.DefaultDieCost * 21), gm.Score);
         }
@@ -84,7 +84,7 @@ namespace UnitTests
         {
             int CurrentStoreAmount = gm.GoblinCount;
             long CurrentScoreAmount = gm.Score;
-            gm.BuyD4();
+            gm.BuyGoblin();
             Assert.AreEqual(CurrentStoreAmount + 1, gm.GoblinCount);
             Assert.AreEqual(CurrentScoreAmount + (0), gm.Score);
         }
