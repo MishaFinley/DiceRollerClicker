@@ -3,15 +3,15 @@ using System.Threading.Tasks;
 
 namespace DiceRollerClicker
 {
-    class GameManager
+    public class GameManager
     {
         public DiceBag DiceBag = new DiceBag();
         public int GoblinCount = 0;
         public long Score = 0;
         public readonly Dictionary<string, int> StoreItemCosts = new Dictionary<string, int>();
-        const int DefaultDieCost = 0;
+        public const int DefaultDieCost = 0;
 
-        public GameManager()
+        public GameManager(bool debug = true)
         {
             StoreItemCosts.Add("Goblin", 0);
             StoreItemCosts.Add("NewD4", 5 * DefaultDieCost);
@@ -22,6 +22,21 @@ namespace DiceRollerClicker
             StoreItemCosts.Add("NewD20", 21 * DefaultDieCost);
             DiceBag.Dice.Add(4, 1);
             doGoblinClicks();
+
+            if (debug)
+            {
+                BuyD4();
+                BuyD6();
+                BuyD8();
+                BuyD10();
+                BuyD12();
+                BuyD20();
+                BuyGoblin();
+                for (int i = 0; i < 50; i++)
+                {
+                    Click();
+                }
+            }
         }
         private async void doGoblinClicks()
         {
@@ -51,38 +66,60 @@ namespace DiceRollerClicker
         }
         public void BuyGoblin()
         {
-            Score -= StoreItemCosts["Goblin"];
-            GoblinCount++;
+            if (Score >= StoreItemCosts["Goblin"])
+            {
+                Score -= StoreItemCosts["Goblin"];
+                GoblinCount++;
+
+            }
         }
         public void BuyD4()
         {
-            Score -= StoreItemCosts["NewD4"];
-            DiceBag.Dice[4] = DiceBag.Dice[4] + 1;
+            if (Score >= StoreItemCosts["NewD4"])
+            {
+                Score -= StoreItemCosts["NewD4"];
+                DiceBag.Dice[4] = DiceBag.Dice[4] + 1;
+            }
         }
         public void BuyD6()
         {
-            Score -= StoreItemCosts["NewD6"];
-            DiceBag.Dice[6] = DiceBag.Dice[6] + 1;
+            if (Score >= StoreItemCosts["NewD6"])
+            {
+                Score -= StoreItemCosts["NewD6"];
+                DiceBag.Dice[6] = DiceBag.Dice[6] + 1;
+            }
         }
         public void BuyD8()
         {
-            Score -= StoreItemCosts["NewD8"];
-            DiceBag.Dice[8] = DiceBag.Dice[8] + 1;
+            if (Score >= StoreItemCosts["NewD8"])
+            {
+                Score -= StoreItemCosts["NewD8"];
+                DiceBag.Dice[8] = DiceBag.Dice[8] + 1;
+            }
         }
         public void BuyD10()
         {
-            Score -= StoreItemCosts["NewD10"];
-            DiceBag.Dice[10] = DiceBag.Dice[10] + 1;
+            if (Score >= StoreItemCosts["NewD10"])
+            {
+                Score -= StoreItemCosts["NewD10"];
+                DiceBag.Dice[10] = DiceBag.Dice[10] + 1;
+            }
         }
         public void BuyD12()
         {
-            Score -= StoreItemCosts["NewD12"];
-            DiceBag.Dice[12] = DiceBag.Dice[12] + 1;
+            if (Score >= StoreItemCosts["NewD12"])
+            {
+                Score -= StoreItemCosts["NewD12"];
+                DiceBag.Dice[12] = DiceBag.Dice[12] + 1;
+            }
         }
         public void BuyD20()
         {
-            Score -= StoreItemCosts["NewD20"];
-            DiceBag.Dice[20] = DiceBag.Dice[20] + 1;
+            if (Score >= StoreItemCosts["NewD20"])
+            {
+                Score -= StoreItemCosts["NewD20"];
+                DiceBag.Dice[20] = DiceBag.Dice[20] + 1;
+            }
         }
     }
 }
