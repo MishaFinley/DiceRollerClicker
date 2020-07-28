@@ -86,3 +86,9 @@ C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885562160000000.json
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\DiceRollerClicker.csprojAssemblyReference.cache
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\bin\x86\Debug\GamePage.xbf
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.g.i.cs
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.g.cs
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.xaml
+C:\Users\londo\OneDrive\Documents\GitHub\DiceRollerClicker\DiceRollerClicker\obj\x86\Debug\GamePage.xbf
