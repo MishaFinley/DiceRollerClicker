@@ -25,6 +25,8 @@ namespace DiceRollerClicker
 
             if (debug)
             {
+                
+                this.Score += 1000;
                 BuyD4();
                 BuyD6();
                 BuyD8();
