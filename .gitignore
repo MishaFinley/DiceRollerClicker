@@ -424,3 +424,13 @@ DiceRollerClicker/obj/x86/Debug/App.xaml
 DiceRollerClicker/obj/x86/Debug/XamlSaveStateFile.xml
 DiceRollerClicker/obj/x86/Debug/DiceRollerClicker.csprojAssemblyReference.cache
 DiceRollerClicker/obj/x86/Debug/XamlSaveStateFile.xml
+DiceRollerClicker/.vs/DiceRollerClicker/v16/.suo
+DiceRollerClicker/bin/x86/Debug/App.xbf
+DiceRollerClicker/bin/x86/Debug/Core/DiceRollerClicker.exe
+DiceRollerClicker/bin/x86/Debug/DiceRollerClicker.build.appxrecipe
+DiceRollerClicker/bin/x86/Debug/DiceRollerClicker.exe
+DiceRollerClicker/bin/x86/Debug/DiceRollerClicker.pdb
+DiceRollerClicker/bin/x86/Debug/MainPage.xbf
+DiceRollerClicker/bin/x86/Debug/System.Runtime.dll
+*.targets
+*.cs

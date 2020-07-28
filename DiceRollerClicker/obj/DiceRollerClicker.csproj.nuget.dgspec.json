@@ -37,13 +37,9 @@
       "frameworks": {
         "uap10.0.17763": {
           "dependencies": {
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.1.2, )"
-            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
-              "version": "[6.2.9, )"
+              "version": "[6.2.10, )"
             }
           },
           "imports": [
