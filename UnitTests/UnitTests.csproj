@@ -157,12 +157,6 @@
       <Version>2.0.0</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DiceRollerClicker\DiceRollerClicker.csproj">
-      <Project>{ace6f9a3-4a44-40cc-996e-a2742bbac53c}</Project>
-      <Name>DiceRollerClicker</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

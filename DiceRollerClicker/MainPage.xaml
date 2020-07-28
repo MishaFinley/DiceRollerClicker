@@ -9,16 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock  FontSize="120" 
-                    HorizontalAlignment="Center" 
+        <TextBlock  FontSize="120"
+                    HorizontalAlignment="Center"
                     Margin="0,122,0,87">Dice Roller Clicker</TextBlock>
 
-        <Button HorizontalAlignment="Center" 
-                Height="200" 
-                Width="500" 
+        <Button HorizontalAlignment="Center"
+                Height="200"
+                Width="500"
                 FontSize="80"
                 Click="Game"
                 >Start Game</Button>
-
     </Grid>
 </Page>

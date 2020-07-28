@@ -20,7 +20,7 @@ namespace DiceRollerClicker
             StoreItemCosts.Add("NewD10", 11 * DefaultDieCost);
             StoreItemCosts.Add("NewD12", 13 * DefaultDieCost);
             StoreItemCosts.Add("NewD20", 21 * DefaultDieCost);
-            DiceBag.Dice.Add(4, 1);
+            DiceBag.Dice[4] = 1;
             doGoblinClicks();
 
             if (debug)
@@ -38,6 +38,7 @@ namespace DiceRollerClicker
                 }
             }
         }
+
         private async void doGoblinClicks()
         {
             do
@@ -64,15 +65,16 @@ namespace DiceRollerClicker
         {
             Score += DiceBag.Roll();
         }
+
         public void BuyGoblin()
         {
             if (Score >= StoreItemCosts["Goblin"])
             {
                 Score -= StoreItemCosts["Goblin"];
                 GoblinCount++;
-
             }
         }
+
         public void BuyD4()
         {
             if (Score >= StoreItemCosts["NewD4"])
@@ -81,6 +83,7 @@ namespace DiceRollerClicker
                 DiceBag.Dice[4] = DiceBag.Dice[4] + 1;
             }
         }
+
         public void BuyD6()
         {
             if (Score >= StoreItemCosts["NewD6"])
@@ -89,6 +92,7 @@ namespace DiceRollerClicker
                 DiceBag.Dice[6] = DiceBag.Dice[6] + 1;
             }
         }
+
         public void BuyD8()
         {
             if (Score >= StoreItemCosts["NewD8"])
@@ -97,6 +101,7 @@ namespace DiceRollerClicker
                 DiceBag.Dice[8] = DiceBag.Dice[8] + 1;
             }
         }
+
         public void BuyD10()
         {
             if (Score >= StoreItemCosts["NewD10"])
@@ -105,6 +110,7 @@ namespace DiceRollerClicker
                 DiceBag.Dice[10] = DiceBag.Dice[10] + 1;
             }
         }
+
         public void BuyD12()
         {
             if (Score >= StoreItemCosts["NewD12"])
@@ -113,6 +119,7 @@ namespace DiceRollerClicker
                 DiceBag.Dice[12] = DiceBag.Dice[12] + 1;
             }
         }
+
         public void BuyD20()
         {
             if (Score >= StoreItemCosts["NewD20"])
